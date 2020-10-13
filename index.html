@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>My Web Design Challenge</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- CSS Stylesheets with Relative Paths -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- Navbar and Search bottons -->
 
 </head>
 <body>
@@ -59,24 +60,24 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="col-md-12">
-                    <h3>Summary: Latitude vs. X</h3>
-                    <p class="text-small-small">X = Temperature, Cloudiness, Wind Speed or Humidity.</p>
+                    <h1>Let´s Begin:</h1>
+                    <p class="text-small-small"> Formula to compare = <strong>Latitude vs X</strong></p>
+                    <p>X = Temperature, Cloudiness, Wind Speed or Humidity.</p>
                     <hr>                   
                     <div class="thumbnail">
-                        <img class="rounded mx-auto d-block float-left" src="visualizations\lat_vs_temp_regresion_southern.png" width="50%" alt="Latitude vs. Temp (F) - Southern Hemisphere">
+                        <img class="rounded mx-auto d-block float-left" src="visualizations\lat_vs_temp_regression_southern.png" width="50%" alt="Latitude vs. Temp (F) - Southern Hemisphere">
                     </div>
 
                     <p class="text-justify">
-                        In this example, I have created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator.
-                        To accomplish this, I've used a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
+                        <h2>Hello world! and its weather</h1>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, it was necessary to pull data from the <strong>OpenWeatherMap API</strong> to assemble a database on over 500 cities. 
                     </p>
 
                     <p class="text-justify">
-                        With the information gathered, I've used Pandas library to organize, clean, analize the information. Also, with Pandas, I ploted the information in different scatter plots to understand the relationship between the diferente variables.
+                        After assembling the database, from pandas we used Matplotlib to plot various aspects of the latitude vs X factors. Including temperature, cloudiness, windspeed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
                     </p>
 
                     <div class="thumbnail">
-                        <img class="rounded mx-auto d-block float-right" src="visualizations\lat_vs_temp_regresion_northern.png" width="50%" alt="Latitude vs. Temp (F) - Northern Hemisphere">
+                        <img class="rounded mx-auto d-block float-right" src="visualizations\lat_vs_temp_regression_northern.png" width="50%" alt="Latitude vs. Temp (F) - Northern Hemisphere">
                     </div>
 
                     <p>
@@ -124,10 +125,15 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
+<p>
+    <a><class="float-left"><a href="#"><strong>Thanks for visiting!</strong> Back to top</a>
+  </p>
+
+</aside>
 
 <footer class="page-footer font-tiny footer-dark font-weight-light">
-    <hr>
-    <div class="footer-copyright text-center py-3">
+Copyright 2020 ©
 </footer>
+
 
 </html
